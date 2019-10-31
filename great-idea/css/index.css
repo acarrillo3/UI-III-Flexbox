@@ -64,12 +64,17 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
+/*header starts here*/
+header {
+	display:flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	border: 2px solid red;
+}
 nav {
-	display:inline-block;
-	/* background:lightskyblue; */
-	width: 100%;
-	padding: 25px;
+	background:lightskyblue;
+	/* width: 100%;
+	padding: 25px; */
 }
 
 nav >a:hover {
@@ -79,7 +84,7 @@ nav >a:hover {
 
 nav a {
 	margin: 0 10px;
-	border: 1px solid lightgray;
+	border: 1px solid blue;
 	padding: 20px;
 	display: inline-block;
 	border-radius: 20px;
@@ -107,6 +112,18 @@ nav a {
 	margin: 6%;
 }
 
+.button-click {
+	background: white;
+	padding: 15px 32px;
+	cursor: pointer;
+}
+#secondimg {
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 10%;
+}
+/*header ends here*/
+/*Top content starts here*/
 p {
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 20px;
@@ -116,18 +133,6 @@ h2 {
 	font-size: 35px;
 }
 
-.button-click {
-	background: white;
-	padding: 15px 32px;
-	cursor: pointer;
-}
-
-#secondimg {
-	display: inline-block;
-	vertical-align: middle;
-	padding-left: 10%;
-}
-/*Top content starts here*/
 .top-content {
 	display: inline-block;
 	border-top: 2px solid black;
