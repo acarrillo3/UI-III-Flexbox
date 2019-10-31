@@ -68,62 +68,57 @@ h1, h2, h3, h4, h5 {
 header {
 	display:flex;
 	flex-direction: column;
-	/* justify-content: center; */
 	border: 2px solid red;
 }
+
 nav {
-	background:lightskyblue;
-	/* width: 100%;
-	padding: 25px; */
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 2%;
 }
 
 nav >a:hover {
-	background-color: white;
-  	color: black;
+	background-color: grey;
+	  color: white;
+	  border: 1px solid blue;
 }
 
 nav a {
-	margin: 0 10px;
-	border: 1px solid blue;
 	padding: 20px;
-	display: inline-block;
 	border-radius: 20px;
-	color: blue;
-	text-decoration: none;
-	margin-bottom: 20px;
-	background-color: silver;
-	border-radius: 8px;
+	color: grey;
 }
 
 .logo {
-	padding-left: 25%; 
+	/* padding-left: 25%;  */
 }
 
 .title {
-	display: inline-block;
+	/* display: inline-block;
 	width: 49.5%;
 	vertical-align: middle;
-	padding-bottom: 10%;
+	padding-bottom: 10%; */
 }
 
 .title h1 {
-	font-size: 75px;
+	/* font-size: 75px;
 	padding: 10% 25% 10% 25%;
-	margin: 6%;
+	margin: 6%; */
 }
 
 .button-click {
-	background: white;
+	/* background: white;
 	padding: 15px 32px;
-	cursor: pointer;
+	cursor: pointer; */
 }
 #secondimg {
-	display: inline-block;
+	/* display: inline-block;
 	vertical-align: middle;
-	padding-left: 10%;
+	padding-left: 10%; */
 }
 /*header ends here*/
-/*Top content starts here*/
+/* Top content starts here */
 p {
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 20px;
