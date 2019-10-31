@@ -90,21 +90,24 @@ nav a {
 	color: grey;
 }
 
-.logo {
-	/* padding-left: 25%;  */
+/*.logo {
+	What effects can I add to the logo?
 }
+*/
 
 .title {
-	/* display: inline-block;
-	width: 49.5%;
-	vertical-align: middle;
-	padding-bottom: 10%; */
+	border: 2px solid yellow;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 5%;
 }
 
 .title h1 {
-	/* font-size: 75px;
-	padding: 10% 25% 10% 25%;
-	margin: 6%; */
+	border: 2px solid red;
+	font-size: 75px;
+	/* padding: 10% 25% 10% 25%; */
+	/* margin: 6%; */
 }
 
 .button-click {
