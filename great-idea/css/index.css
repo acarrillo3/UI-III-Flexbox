@@ -125,6 +125,7 @@ nav a {
 	justify-content: center;
 	border-top: 2px solid black;
 }
+
 p {
 	font-family: cursive;
 	font-size: 18px;
@@ -133,8 +134,6 @@ p {
 h2 {
 	font-size: 35px;
 }
-
-
 
 #Features {
 	display: flex;
@@ -153,46 +152,45 @@ h2 {
 .middle-img {
 	display: flex;
 	width: 100vw;
-	/* max-width: 100%; I DONT WHY, THIS I NOT WORKING i want it to display all across*/
+
 }
+
 /*bottom content start here*/
 .bottom-content {
-	display: inline-block;
-	padding: 10% 0;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	border-bottom: 2px solid black;
+	
 }
 #Services {
-	display: inline-block;
-	width: 20%;
-	margin: 2%;
-	vertical-align: middle;
-	/* background: yellow; */
+	display: flex;
+	flex-direction: column;
+	margin: 5%;
 }
 
 #Product {
-	display: inline-block;
-	width: 20%;
-	margin: 2%;
-	vertical-align: middle;
+	display: flex;
+	flex-direction: column;
+	margin: 5%;
 }
 
 #Vision {
-	display: inline-block;
-	width: 20%;
-	margin: 2%;
-	vertical-align: middle;
-	/* background: yellow; */
+	display: flex;
+	flex-direction: column;
+	margin: 5%;
 }
 /*here should go the contact style*/
 #Contact {
-	/* background: yellow; */
-	padding:10% 0 10% 0;
-	border-top: 2px solid black;
-	width: 85%;
-	margin: auto;
-
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 5%;
 }
 /*footer starts here*/
 footer {
+	display: flex;
+	justify-content: center;
 	background: black;
 	color: white;
 }
