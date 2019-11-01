@@ -123,15 +123,11 @@ nav a {
 .top-content {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	border: 2px solid red;
-
-	/* border-top: 2px solid black; */
-	/* width:85%; */
+	border-top: 2px solid black;
 }
 p {
 	font-family: cursive;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 h2 {
@@ -141,22 +137,22 @@ h2 {
 
 
 #Features {
-	vertical-align: middle;
-	width: 25%;
-	margin: 10%;
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
+	margin: 5%;
 }
 
 #About {
-	display: inline-block;
-	width: 25%;
-	margin: 4%;
-	vertical-align: middle;
+	display: flex;
+	flex-direction: column;
+	margin: 5%;
+	
 }
 
 /*third img should go under here*/
-#middle-img {
-	/* display: inline-block; I THINK THIS IS NOT NECESSARY */
+.middle-img {
+	display: flex;
+	width: 100vw;
 	/* max-width: 100%; I DONT WHY, THIS I NOT WORKING i want it to display all across*/
 }
 /*bottom content start here*/
