@@ -198,7 +198,10 @@ footer {
 
 /* services new css starts here */
 .services-header-img {
+	display: flex;
+	justify-content: center;
 	margin:5%;
+	width: 90vw;
 }
 
 #title {
@@ -206,9 +209,53 @@ footer {
 	margin: 5%;
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+	padding: 10px;
 }
 
 #title h1 {
 	font-size: 45px;
 }
+
+#boxes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 5%;
+	max-width: 100%;
+	border-top: 2px solid black
+
+}
+
+.box-in-sect  {
+	border: 1px solid black;
+	background: rgb(243, 242, 242);
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	padding: 10px;
+	margin:2%;
+}
+
+.box-in-sect h2 {
+	font-size: 30px;
+}
+
+.box-in-sect .button-click {
+	display: flex;
+	flex-direction: center;
+	
+}
+
+#facts {
+	display: flex;
+	border-top:solid 2px black;
+	margin: 5%;
+	padding: 5% 0 5% 0;
+	justify-content: space-between;
+}
+
+#facts div {
+	width: 50%;
+
+}
+
