@@ -116,16 +116,21 @@ nav a {
 	cursor: pointer;
 }
 #secondimg {
-	/* display: inline-block;
-	vertical-align: middle;
-	padding-left: 10%; */
+	width: 35vw;
 }
 /*header ends here*/
-
-
 /* Top content starts here */
+.top-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid red;
+
+	/* border-top: 2px solid black; */
+	/* width:85%; */
+}
 p {
-	font-family: 'Shadows Into Light', cursive;
+	font-family: cursive;
 	font-size: 20px;
 }
 
@@ -133,11 +138,7 @@ h2 {
 	font-size: 35px;
 }
 
-.top-content {
-	display: inline-block;
-	border-top: 2px solid black;
-	width:85%;
-}
+
 
 #Features {
 	vertical-align: middle;
